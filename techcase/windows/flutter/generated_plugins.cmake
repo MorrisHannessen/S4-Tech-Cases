@@ -3,6 +3,8 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  battery_plus
+  flutter_localization
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
