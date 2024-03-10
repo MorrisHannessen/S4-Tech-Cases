@@ -1,37 +1,46 @@
-# Tech Case 9: Battery Status App
+# Smart Mobile Portfolio - Morris Hannessen
 
-## Overview
+Welcome to the semester 4 Smart Mobile portfolio of Morris Hannessen. Here you can find all the assignments with documentation that I have made for this semester.
 
-This assignment involves creating a battery app designed for a global audience. The app should provide users with essential information about their device's battery status, including charge percentage, visual representation, charging time, and time until the battery is empty. Moreover, the app should be capable of supporting multiple languages, with an emphasis on accommodating right-to-left languages like Arabic or Hebrew.
+## Table of Contents
 
-## Features
+1. [LAST CHANGES](#last-changes)
+2. [Individual Assignments](#individual-assignments)
+   - [Tech Case Week 1-3](#tech-case-week-1-3)
+3. [Duo Assignments](#duo-assignments)
+   - [Duo Case Week 1-3](#duo-case-week-1-3)
+4. [Learning Outcomes](#learning-outcomes)
 
-1. **Battery Percentage Display:**
+## LAST CHANGES
 
-   - Show the current charge percentage of the device's battery, ranging from 0% (empty) to 100% (fully charged).
+- Setup GitHub & Jira
+- Tech case (Week 1-3)
+- Duo case (Week 1-3)
+- Research on Cultural Exchange
 
-2. **Visual Representation:**
+## Individual Assignments
 
-   - Display a graph, progress bar, or other visualization representing the current battery charge.
-   - Utilize red, green, and orange colors to differentiate and represent different charge percentages.
+### Tech Case Week 1-3
 
-3. **Charging Information:**
+In the first three weeks of this semester we were tasked to make an technical Flutter app. My assignment was to make an [A battery app for a global audience](https://fhict.instructure.com/courses/13675/pages/tech-case-9-a-battery-app-for-a-global-audience?module_item_id=1061642). This was a not really a big challenge, but it was a good start for learning how Flutter works. To find more info about my app click [here](/documentation/tech-case-9.md)
 
-   - When the phone is charging, provide the user with the estimated number of minutes it will take to fully charge the battery.
+## Duo Assignments
 
-4. **Discharging Information:**
+### Duo Case Week 1-3
 
-   - When the phone is not charging, inform the user about the estimated number of minutes left until the battery is empty.
+In the first three weeks of this semester, I worked together with a partner on a Duo Case project. The project files (Flutter app and documentation) can be found [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile).
 
-5. **Global Audience Support:**
-   - Implement language switching functionality to allow users to choose from multiple languages.
-   - Ensure that the app's user interface adapts seamlessly to the selected language.
-   - Include support for right-to-left languages such as Arabic or Hebrew.
+## Research
 
-## Getting Started
+For the research we did to Cultural Exchange click [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/cultural-exchange.md)
 
-1. Clone the repository:
+## Learning Outcomes
 
-   ```bash
-   git clone https://github.com/your-username/battery-app.git
-   ```
+Look here if you want a specific description of the learning outcomes:
+
+- [Analysis](/documentation/learning-outcomes/analysis.md)
+- [Advice](/documentation/learning-outcomes/advice.md)
+- [Design](/documentation/learning-outcomes/design.md)
+- [Realisation](/documentation/learning-outcomes/realisation.md)
+- [Management & Control](/documentation/learning-outcomes/managementcontrol.md)
+- [Professional Skills](/documentation/learning-outcomes/professionalskills.md)
