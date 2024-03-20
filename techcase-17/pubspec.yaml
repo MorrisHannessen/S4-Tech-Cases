@@ -1,14 +1,16 @@
 name: techcase17
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  morse_code_translator: ^0.0.1
+  torch_controller: ^2.0.1
 
 dev_dependencies:
   flutter_test:
