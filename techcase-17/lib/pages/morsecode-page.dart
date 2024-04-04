@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:morse_code_translator/morse_code_translator.dart';
+import 'package:flutter/widgets.dart';
 import 'package:techcase17/classes/morsecoder.dart';
 import 'package:torch_controller/torch_controller.dart';
 
@@ -9,135 +9,157 @@ class MorseCodePage extends StatefulWidget {
 }
 
 class _MorseCodePageState extends State<MorseCodePage> {
-  TextEditingController _inputController = TextEditingController();
-  TextEditingController _outputController = TextEditingController();
-  Morsecoder morsecoder = Morsecoder();
-  TorchController torchController = TorchController();
-
-  void _encode() {
-    String input = _inputController.text;
-    String encodedText = morsecoder.encode(input);
-    setState(() {
-      _outputController.text = encodedText;
-    });
-    if (encodedText == 'Invalid text') {
-      showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-            title: Text('Error'),
-            content: Text('Invalid text'),
-            actions: <Widget>[
-              TextButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: Text('OK'),
-              ),
-            ],
-          );
-        },
-      );
-    }
-  }
-
-  void _decode() {
-    String input = _inputController.text;
-    String decodedText = morsecoder.decode(input);
-    setState(() {
-      _outputController.text = decodedText;
-    });
-    if (decodedText == 'Invalid morse code') {
-      showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-            title: Text('Error'),
-            content: Text('Invalid Morse code'),
-            actions: <Widget>[
-              TextButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: Text('OK'),
-              ),
-            ],
-          );
-        },
-      );
-    }
-  }
-
-  Future<void> _toggleFlashlightWithMorseCode() async {
-    String morseCode = _outputController.text.trim();
-    for (int i = 0; i < morseCode.length; i++) {
-      String character = morseCode[i];
-      if (character == '.') {
-        await torchController.toggle();
-        await Future.delayed(Duration(milliseconds: 500), () {
-          torchController.toggle();
-        });
-      } else if (character == '-') {
-        await torchController.toggle();
-        await Future.delayed(Duration(milliseconds: 1000), () {
-          torchController.toggle();
-        });
-      } else if (character == ' ') {
-        // Pause between letters
-        await Future.delayed(Duration(milliseconds: 750));
-      } else if (character == '/') {
-        // Pause between words
-        await Future.delayed(Duration(milliseconds: 1250));
-      }
-    }
-  }
+  final TorchController _torchController = TorchController();
+  final Morsecoder _morsecoder = Morsecoder();
+  String decodedText = '';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Morse Decoder'),
+        title: Center(
+          child: Text(
+            'Morse Decoder',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 40.0,
+            ),
+          ),
+        ),
+        backgroundColor:
+            Colors.lightGreen, // Set background color to light green
+        toolbarHeight: 100.0,
       ),
-      body: Padding(
-        padding: EdgeInsets.all(20.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextField(
-              controller: _inputController,
-              decoration: InputDecoration(
-                hintText: 'Enter text to encode/decode',
+      body: Container(
+        color: Colors.lightGreen,
+        child: Padding(
+          padding: const EdgeInsets.all(60.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const Text(
+                  'To use the app, tap the screen to add a dot, and long press to add a dash. to make a space just send an empty field, Swipe left to delete the last character. Tap the "Send Letter" button to decode the morse code. Tap the "Clear Fields" button to clear the fields. Tap the "Play Morse code with flashlight" button to play the morse code with the flashlight.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 12.0,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.black)),
+              const SizedBox(height: 20.0),
+              Text(
+                _morsecoder.morseCode.text.toString(),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
               ),
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                ElevatedButton(
-                  onPressed: _encode,
-                  child: Text('Encode'),
+              SizedBox(height: 10.0),
+              GestureDetector(
+                onLongPress: () {
+                  _morsecoder.addDash();
+                  setState(() {});
+                },
+                onTap: () {
+                  _morsecoder.addDot();
+                  setState(() {});
+                },
+                onHorizontalDragEnd: (DragEndDetails details) {
+                  try {
+                    _morsecoder.deleteLast();
+                    setState(() {});
+                  } catch (e) {
+                    print(e);
+                  }
+                },
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(45.0),
+                  child: Container(
+                    height: 60.0,
+                    color: Colors.grey,
+                    child: const Center(
+                      child: Text(
+                        '',
+                        style: TextStyle(color: Colors.black),
+                      ),
+                    ),
+                  ),
                 ),
-                ElevatedButton(
-                  onPressed: _decode,
-                  child: Text('Decode'),
-                ),
-              ],
-            ),
-            SizedBox(height: 20.0),
-            TextField(
-              controller: _outputController,
-              readOnly: true,
-              decoration: InputDecoration(
-                hintText: 'Result',
               ),
-            ),
-            SizedBox(height: 20.0),
-            ElevatedButton(
-              onPressed: _toggleFlashlightWithMorseCode,
-              child: Text('Play Morse code with flashlight'),
-            ),
-          ],
+              const SizedBox(height: 20.0),
+              ElevatedButton(
+                onPressed: () {
+                  try {
+                    _morsecoder.decode(_morsecoder.morseCode.text.toString());
+                    setState(() {});
+                  } catch (e) {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: Text('Error'),
+                          content: Text('Invalid morse code'),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
+                              child: Text('OK'),
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  }
+                },
+                child: const Text('Send Letter'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  _morsecoder.clear();
+                  setState(() {});
+                },
+                child: const Text('Clear Fields'),
+              ),
+              const SizedBox(height: 20.0),
+              Text(
+                _morsecoder.output.toString(),
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
+              ),
+              const SizedBox(height: 20.0),
+              ElevatedButton(
+                onPressed: () async {
+                  try {
+                    await _morsecoder.toggleFlashlightWithMorseCode();
+                  } catch (e) {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: Text('Error'),
+                          content: Text(e.toString()),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
+                              child: Text('OK'),
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  }
+                },
+                child: Text('Play Morse code with flashlight'),
+              ),
+            ],
+          ),
         ),
       ),
     );
