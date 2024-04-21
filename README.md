@@ -4,13 +4,16 @@ Welcome to the semester 4 Smart Mobile portfolio of Morris Hannessen. Here you c
 
 ## Table of Contents
 
-1. [LAST CHANGES](#last-changes)
-2. [Reading Guide](#reading-guide)
-3. [Individual Assignments](#individual-assignments)
-   - [Tech Case 17](#tech-case-17)
-4. [Duo Assignments](#duo-assignments)
-   - [Duo Case Week 4](#duo-case-4)
-5. [Learning Outcomes](#learning-outcomes)
+- [Smart Mobile Portfolio - Morris Hannessen](#smart-mobile-portfolio---morris-hannessen)
+  - [Table of Contents](#table-of-contents)
+  - [LAST CHANGES](#last-changes)
+  - [Reading Guide](#reading-guide)
+  - [Individual Assignments](#individual-assignments)
+    - [Tech Case 17](#tech-case-17)
+  - [Duo Assignments](#duo-assignments)
+    - [Duo Case 4](#duo-case-4)
+  - [Research](#research)
+  - [Learning Outcomes](#learning-outcomes)
 
 ## LAST CHANGES
 
@@ -41,7 +44,7 @@ For the research we have done click [here](https://github.com/S4-Smart-mobile/S4
 
 ## Learning Outcomes
 
-Look here if you want a specific description of the learning outcomes:
+Here I breakdown every learning outcome and explain what I have done for that particular learning outcome and what I think would be an appropriate 'rating' to give myself for that LO.
 
 - [Analysis](/documentation/learning-outcomes/analysis.md)
 - [Advice](/documentation/learning-outcomes/advice.md)

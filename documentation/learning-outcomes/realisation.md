@@ -4,26 +4,16 @@
 
 Implement high-quality applications using both client-side and server-side programming languages, while leveraging relevant mobile hardware.
 
-## High Quality
+## Proof of Concept
 
-- Ensure applications meet both functional and non-functional requirements by considering security, privacy, code quality, and maintainability through testing.
+For this I will link to [my techcase document](/documentation/tech-case-17.md). 
+There I have my technical documentation on my Realisation of my application.
 
-## Applications
+## Rating
 
-- Develop Proof of Concepts and complex prototypes that include a tested User Experience (UX), a User Interface (UI), industry-standard programming, and a functional backend.
+For this LO I would give myself an Proficient. I have made the techcase with good feedback from Marcel:
+<img src="/documentation/img/Feedpulse-4.png" height="200"/>
 
-## Programming Languages
+I have made extra features but I don't find that enough for a higher rating.
 
-- Use both native (Kotlin and Swift) and hybrid languages/frameworks (PWA, Flutter) based on research and personal experience.
 
-## Server Side
-
-- Implement or utilize a backend solution that enables mobile application communication.
-
-## Hardware
-
-- Utilize internal or external sensors to enhance the mobile experience.
-
-## Feedback Processing
-
-- Incorporate feedback received on your work throughout the development process.

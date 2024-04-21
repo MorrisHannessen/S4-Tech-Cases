@@ -16,4 +16,6 @@ Again in our "research document" [here](https://github.com/S4-Smart-mobile/S4-Sm
 
 ## Rating
 
+For this LO I would rate myself Proficient. Because this is rated together with analysis so look at [the analysis document](/documentation/learning-outcomes/analysis.md) for a further explanation.
+
 <img src="/documentation/img/advice-img.jpeg" alt="400" width="400"/>
