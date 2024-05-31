@@ -8,39 +8,32 @@ Welcome to the semester 4 Smart Mobile portfolio of Morris Hannessen. Here you c
   - [Table of Contents](#table-of-contents)
   - [LAST CHANGES](#last-changes)
   - [Reading Guide](#reading-guide)
-  - [Individual Assignments](#individual-assignments)
-    - [Tech Case 17](#tech-case-17)
-  - [Duo Assignments](#duo-assignments)
-    - [Duo Case 4](#duo-case-4)
-  - [Research](#research)
+  - [Group Project](#group-project)
+  - [My Work](#my-work)
   - [Learning Outcomes](#learning-outcomes)
+  - [History](#new-headline-3)
 
 ## LAST CHANGES
 
 - ReadMe update
-- Research on Mood Prediction final touches
-- UX Testing
-- App Documentation
+- LO updates
+- Added images
 
 ## Reading Guide
 
-This is an explaination on you to read my portfolio. in [Individual Assignments](#individual-assignments) I touch on the techcase mostly the technical workings of it. In [Duo Assignments](#duo-assignments) Is a link to [our shared repository](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/tree/main). There you can find the Duo Case application and the [Research on Mood Prediction](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor.md) and [UX Testing](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor-ux-testing.md). Finally, there's a section for the [Learning Outcomes](#learning-outcomes) where I discuss every learning outcome. Explaining what I have done for that particular learning outcome and what I think would be an appropriate 'rating' to give myself for that LO.
+This is an explanation on how to read my portfolio. First of al I have made a section for [The Group Project](#group-project). Here I will explain what app we are making and how we came up with our idea's. After that I will explain what [my personal stake](#my-work) was in the project and what I have done and some examples of my work. Behind that we have another module were I explain what I have done for each [Learning Outcome](#learning-outcomes) and what I think would be an appropriate 'rating' to give myself for that LO.
 
-## Individual Assignments
+### Group Project
 
-### Tech Case 17
+At Mentis, our group has been working on a mobile app in Flutter called Overload, designed to help people understand what individuals with overstimulation disorders such as ADHD, autism, and brain injuries experience. We achieve this through a VR experience combined with 8D audio to provide an immersive sense of what these individuals go through and offer tips and suggestions on how to assist them.
 
-During this period i made an app that an read morse code. [Here](/documentation/tech-case-17.md) you will find more information on the technical aspects of the app and how it turned out.
+We received the subject of overstimulation from a third-party company, Studio Krom, via Fontys. We had the freedom to create anything related to overstimulation. After extensive research and brainstorming, we developed the Overload concept. We presented it to Studio Krom, and they were very positive about the idea. So thats how we came up with Overload.
 
-## Duo Assignments
+<img src="/documentation/img/mentis-horizontal-variant-transparent.png" alt="" width="400"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="/documentation/img/studiokrom.png" alt="" height="100"/>
 
-### Duo Case 4
+## My work
 
-[Joris Brugman](https://github.com/theartcher) and I made [Duo Case 4](https://fhict.instructure.com/courses/13675/pages/duo-case-4-mood-predictor-2?module_item_id=1061607) During these 6 weeks. For our work click [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile?tab=readme-ov-file) to go to our shared repository.
-
-## Research
-
-For the research we have done click [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor.md) for the mood prediction. And [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor-ux-testing.md) for the UX Testing research.
+In the group project I have done my fair share of work for the group.
 
 ## Learning Outcomes
 
@@ -52,3 +45,8 @@ Here I breakdown every learning outcome and explain what I have done for that pa
 - [Realization](/documentation/learning-outcomes/realisation.md)
 - [Management & Control](/documentation/learning-outcomes/managementcontrol.md)
 - [Professional Skills](/documentation/learning-outcomes/professionalskills.md)
+
+<br>
+<img src="/documentation/img/fontys-logo.png" alt="400" width="400"/>
+
+## History
