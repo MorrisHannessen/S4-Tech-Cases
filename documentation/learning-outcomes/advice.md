@@ -12,10 +12,15 @@ Based on relevant analysis, you advice on suitable user interaction and technolo
 
 ## Proof of Concept
 
-Again in our "research document" [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor.md) is a all of our analysis we have done. We have based our analysis on User Testing and Survey's you can find [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/interviews-surveys/mood-mental-health-survey-V2.md)
+You can find the research I have done under here.
+
+- [Sprint 0 Concept research](https://www.notion.so/Sprint-0-2f13d54732414a1b804a1bbac14945ff)
+- [Technical Research](https://www.notion.so/Technical-Research-Demos-481ede4b614c4195874ad1d97018eb30)
+- [VR plugin](https://www.notion.so/VR-plugin-64ed2b141c6340f99adb928486a23e0c)
+- [Persona's](https://www.notion.so/Neurotypical-Persona-s-47a324f6536b46b3ad726aa859327f70)
 
 ## Rating
 
-For this LO I would rate myself Proficient. Because this is rated together with analysis so look at [the analysis document](/documentation/learning-outcomes/analysis.md) for a further explanation.
+For this LO I would rate myself Proficient.
 
 <img src="/documentation/img/advice-img.jpeg" alt="400" width="400"/>

@@ -11,9 +11,12 @@ You show you can convert a problem or opportunity into multiple smart mobile con
 
 ## Proof of Concept
 
-For the proof of this LO i would suggests to click [here](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor.md) that link will take you to our shared repository. There you can find that we converted our problem:
-`People want to feel good all the time. But what situations trigger a person to feel good?`
-into multiple concepts trough research and analysis and iterating on our idea's
+You can find the research I have done under here.
+
+- [Sprint 0 Concept research](https://www.notion.so/Sprint-0-2f13d54732414a1b804a1bbac14945ff)
+- [Technical Research](https://www.notion.so/Technical-Research-Demos-481ede4b614c4195874ad1d97018eb30)
+- [VR plugin](https://www.notion.so/VR-plugin-64ed2b141c6340f99adb928486a23e0c)
+- [Persona's](https://www.notion.so/Neurotypical-Persona-s-47a324f6536b46b3ad726aa859327f70)
 
 ## Rating
 

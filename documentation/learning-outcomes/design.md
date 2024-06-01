@@ -6,14 +6,16 @@ You translate concepts into user friendly designs and validate these designs thr
 
 ## Proof of Concept
 
-To show you my progress I have made on this LO you can go to [our UX testing for design](https://github.com/S4-Smart-mobile/S4-Smart-Mobile/blob/main/documentation/research/mood-predictor-ux-testing.md). We also have done personal UX testing with classmates and our teacher Erik.
+I haven't done much more designing since the last assesment. Thats I was in a group with 3 media student and 2 software student(whitch i am). So we asked to Marcel if it was okay if Joris and me did all the coding and the media student made the design and irriations/tests. And he said that it was fine so I didn't do much designing. I offcourse gave my feedback and tried to help if the couldn't figure it out. I helped a bit with the wireframing because it needed some technical input on how to put the VR page in a design.
 
-<img src="/documentation/img/feedpulse-3.png" height="200" width="700"/>
+For The design click [here](https://www.figma.com/design/vjSt02gUbVpAXFiB0JzmIz/Overload-App-Design?node-id=0-1), and for our Testing click [here](https://drive.google.com/file/d/1VHgC_3oIOrBhY46l-L20NnFowaB9pcR5/view) and [here](https://drive.google.com/file/d/1vg947o73gJ4Zh8zH7ko9JWnsXyCpS6vD/view)
 
-And this is how our final design was after our testing:
+Under here you can find our wire frames
 
-<img src="/documentation/img/ux-research-D1.png" height="400" width="179"/>
+<img src="/documentation/img/IMG_7783.jpg" alt="" width="500"/>
+<br><br>
+<img src="/documentation/img/advice-img.jpeg" alt="" width="400"/>
 
 ## Rating
 
-I would give me for this LO an Advanced. Because we did a lot of testing, we asked Erik for feedback on our design many times and had 2 great feedback smileys in a row.
+I would give me for this LO an Proficient.

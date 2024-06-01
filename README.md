@@ -33,7 +33,7 @@ We received the subject of overstimulation from a third-party company, Studio Kr
 
 ## My work
 
-In the group project I have done my fair share of work for the group.
+In the group project I have done my fair share of work for the group. We have put all of our work in [Notion](https://www.notion.so/Sprints-8742edc4e19c4cf58ed44dba1c23ccd0) but I would like you to go through ever LO separately where I explain for each LO what I have done.
 
 ## Learning Outcomes
 

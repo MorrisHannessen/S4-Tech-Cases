@@ -6,11 +6,7 @@ Showcase your professional development as a mobile developer through authentic, 
 
 ## Proof of Concept
 
-My professional Skills have certainly improved over these weeks. I think my feedpulse is the best way to proof that. I have asked for more feedback and handled those feedback conversations in an professional manner. And I have noticed that i have gained more confidence in going to my teacher and showing them my work/progression I have made.
-
-Working with my duo partner Joris was always done in an Professional manner and I think worked really well. We always let each other know when something was up. And if there was a problem we were able to handle that in a Professional way.
-
-While looking for an internship I have had a few conversation with real companies and found out how important Professional Skills are and how I have grow in them.
+My professional Skills have been improved once again. I had to speak a lot of English because I sad in a group with international students. So we had to speak English. I dont find it hard to speak English and I have alsways spoken english in a proper professional way so
 
 ## Rating
 
