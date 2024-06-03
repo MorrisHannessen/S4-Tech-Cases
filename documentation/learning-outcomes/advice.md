@@ -12,7 +12,7 @@ Based on relevant analysis, you advice on suitable user interaction and technolo
 
 ## Proof of Concept
 
-You can find the research I have done under here.
+The first phase of the project involved a significant amount of research. We were only given the subject of overstimulation by the stakeholders, so we began with some initial research to understand what overstimulation actually is. Following this, we brainstormed basic concepts with the entire group. My personal research is linked below. Although it is somewhat less than the last assessment, we had three media students who were much better at delivering quality analysis. I still conducted some analysis, but since we were responsible for all the programming for the project, we asked Marcel if it was acceptable to divide the work this way, and he agreed.
 
 - [Sprint 0 Concept research](https://www.notion.so/Sprint-0-2f13d54732414a1b804a1bbac14945ff)
 - [Technical Research](https://www.notion.so/Technical-Research-Demos-481ede4b614c4195874ad1d97018eb30)

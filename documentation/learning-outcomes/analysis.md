@@ -11,7 +11,7 @@ You show you can convert a problem or opportunity into multiple smart mobile con
 
 ## Proof of Concept
 
-You can find the research I have done under here.
+The first phase of the project involved a significant amount of research. We were only given the subject of overstimulation by the stakeholders, so we began with some initial research to understand what overstimulation actually is. Following this, we brainstormed basic concepts with the entire group. My personal research is linked below. Although it is somewhat less than the last assessment, we had three media students who were much better at delivering quality analysis. I still conducted some analysis, but since we were responsible for all the programming for the project, we asked Marcel if it was acceptable to divide the work this way, and he agreed.
 
 - [Sprint 0 Concept research](https://www.notion.so/Sprint-0-2f13d54732414a1b804a1bbac14945ff)
 - [Technical Research](https://www.notion.so/Technical-Research-Demos-481ede4b614c4195874ad1d97018eb30)
@@ -20,6 +20,6 @@ You can find the research I have done under here.
 
 ## Rating
 
-We put a lot of effort in making a lot of concepts before we even started designing, and we did a lot of research/analysis for each concept we created so I would put myself at least at Proficient. We also asked a lot of feedback from Erik. What at the end helped a lot with making the concepts and gave us a better idea on how to go from a simple problem to smart mobile concepts.
+I would give me for this LO an Proficient.
 
 <img src="/documentation/img/Analysis.webp" alt="400" width="400"/>
